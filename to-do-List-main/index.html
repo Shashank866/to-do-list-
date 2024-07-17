@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="Video/219025_small.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container-title">
+        <h1>To Do List</h1>
+    </div>
+    <div class="container">
+        <div class="inputcol">
+            <textarea name="text" class="textarea" placeholder="Enter your task here"></textarea>
+            <input type="time" name="time" class="timeinput">
+            <button type="button" class="buttoninput"><i class="fa-solid fa-check"></i> Add Task</button>
+        </div>
+    </div>
+    <div class="todolist">
+        <!-- Tasks will be dynamically added here -->
+    </div>
+</body>
+
+</html>
